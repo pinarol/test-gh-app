@@ -95,6 +95,7 @@ export class MediaUpload extends React.Component {
 	}
 
 	getWordPressLibraryIcon() {
+		//comment
 		return 'wordpress-alt';
 	}
 

@@ -135,6 +135,7 @@ export class ImageEdit extends React.Component {
 		const { attributes } = this.props;
 
 		if ( this.state.isUploadInProgress ) {
+			//some change
 			requestImageUploadCancelDialog( attributes.id );
 		} else if ( attributes.id && ! isURL( attributes.url ) ) {
 			requestImageFailedRetryDialog( attributes.id );
