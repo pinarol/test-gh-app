@@ -14,5 +14,6 @@ const MediaUpload = () => null;
 
 /**
  * @see https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/media-upload/README.md
+ * Sample change
  */
 export default withFilters( 'editor.MediaUpload' )( MediaUpload );
