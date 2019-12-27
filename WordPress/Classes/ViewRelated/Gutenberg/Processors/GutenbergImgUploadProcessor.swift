@@ -13,7 +13,7 @@ class GutenbergImgUploadProcessor: Processor {
         self.serverMediaID = serverMediaID
         self.remoteURLString = remoteURLString
     }
-
+ 
     lazy var imgPostMediaUploadProcessor = HTMLProcessor(for: "img", replacer: { (img) in
         guard let imgClassAttributeValue = img.attributes["class"]?.value,
             case let .string(imgClass) = imgClassAttributeValue else {

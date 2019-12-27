@@ -18,7 +18,7 @@ class GutenbergGalleryUploadProcessor: Processor {
         self.remoteURLString = remoteURLString
         self.mediaLink = mediaLink
     }
-
+ 
     private struct ImageKeys {
         static let name = "img"
         static let classAttributes = "class"
