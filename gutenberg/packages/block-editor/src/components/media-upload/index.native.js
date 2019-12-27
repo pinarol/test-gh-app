@@ -138,6 +138,7 @@ export class MediaUpload extends React.Component {
 		}
 
 		const getMediaOptions = () => (
+			
 			<Picker
 				hideCancelButton
 				ref={ ( instance ) => this.picker = instance }
